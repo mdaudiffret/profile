@@ -4,21 +4,21 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300; /* if you want the light version */
-  background: #262626;
+  background: #f7feff;
   color: #797979;
 }
 li > a {
   text-decoration: none; color:#797979;
   text-shadow:
-    #000000 4px 4px 8px,
-    #4d4d4d -4px -4px 8px;
+    #00000026 4px 4px 8px,
+    #ffffff -4px -4px 8px;
 }
 
 li > a:hover {
   color: #71c8d6;
   text-shadow:
-    #000000 -4px -4px 8px,
-    #4d4d4d 4px 4px 8px;
+    #00000026 -4px -4px 8px,
+    #ffffff 4px 4px 8px;
 }
 
 
@@ -33,10 +33,10 @@ li > a:hover {
   margin: 16px 0;
   padding: 8px 16px;
   border-radius: 10px;
-  background: #262626;
+  background: #f7feff;
   box-shadow:
-    #000000 4px 4px 8px,
-    #4d4d4d -4px -4px 8px;
+    #00000026 4px 4px 8px,
+    #ffffff -4px -4px 8px;
 }
 
 .josefin-blue-header {
@@ -48,10 +48,9 @@ li > a:hover {
 .radius-img {
   width: 150px;
   border-radius: 10px;
-  border-style: solid;
   box-shadow:
-    #000000 4px 4px 8px,
-    #4d4d4d -4px -4px 8px;
+    #00000026 4px 4px 8px,
+    #ffffff -4px -4px 8px;
 }
 
 .light-button {
@@ -63,16 +62,16 @@ li > a:hover {
   text-decoration: none;
   font-weight: 900;
   border-radius: 10px;
-  background: #262626;
+  background: #f7feff;
   box-shadow:
-    #000000 4px 4px 8px,
-    #4d4d4d -4px -4px 8px;
+    #00000026 4px 4px 8px,
+    #ffffff -4px -4px 8px;
 }
 
 .light-button:hover {
   box-shadow:
-    #000000 -4px -4px 8px,
-    #4d4d4d 4px 4px 8px;
+    #00000026 -4px -4px 8px,
+    #ffffff 4px 4px 8px;
 }
 
 .list-inline {
