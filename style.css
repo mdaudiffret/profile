@@ -7,6 +7,16 @@ body {
   background-color: #c3ddf063;
 }
 
+a {
+  text-decoration: none; color:grey;
+}
+
+a:hover {
+  color: #71c8d6;
+  text-shadow:
+    1px 1px 0px rgb(0 0 0 / 20%)
+}
+
 /*Media containers*/
 @media (min-width: 960px) {
   /* For a screen > 960px, this CSS will be read */
@@ -90,11 +100,4 @@ body {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
-  color: grey;
 }
-
-.list-inline > li:hover {
-  color: #71c8d6;
-  text-shadow:
-    1px 1px 0px rgb(0 0 0 / 20%)
-  }
