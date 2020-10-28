@@ -4,32 +4,88 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300; /* if you want the light version */
-  background:
-    linear-gradient(135deg, #fff 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, #fff 25%, transparent 25%) -50px 0,
-    linear-gradient(315deg, #fff 25%, transparent 25%),
-    linear-gradient(45deg, #fff 25%, transparent 25%);
-    background-size: 100px 100px;
-    background-color: #c3ddf063;
+  background: #262626;
+  color: #797979;
+}
+li > a {
+  text-decoration: none; color:#797979;
+  text-shadow:
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
 }
 
-a {
-  text-decoration: none; color:grey;
-}
-
-a:hover {
+li > a:hover {
   color: #71c8d6;
   text-shadow:
-    1px 1px 0px rgb(0 0 0 / 20%)
+    #000000 -4px -4px 8px,
+    #4d4d4d 4px 4px 8px;
+}
+
+
+/*classes*/
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.card {
+  margin: 16px 0;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: #262626;
+  box-shadow:
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
+}
+
+.josefin-blue-header {
+  font-family: 'Josefin', sans-serif;
+  font-weight: 100;
+  color: #17aeb5;
+}
+
+.radius-img {
+  width: 150px;
+  border-radius: 10px;
+  border-style: solid;
+  box-shadow:
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
+}
+
+.light-button {
+  display: inline-block;
+  margin: 8px;
+  margin-bottom: 16px;
+  padding: 8px 24px;
+  color: #17abc1;
+  text-decoration: none;
+  font-weight: 900;
+  border-radius: 10px;
+  background: #262626;
+  box-shadow:
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
+}
+
+.light-button:hover {
+  box-shadow:
+    #000000 -4px -4px 8px,
+    #4d4d4d 4px 4px 8px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 /*Media containers*/
-@media (min-width: 960px) {
-  /* For a screen > 960px, this CSS will be read */
-  .container {
-    width: 900px;
-  }
-}
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -47,63 +103,4 @@ a:hover {
   .container {
     width: 300px;
   }
-}
-
-/*classes*/
-.container {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.card {
-  margin: 16px 0;
-  padding: 8px 16px;
-  border-radius: 4px;
-  background-color: #ffffff;
-  box-shadow:
-    4px 4px 0px 2px rgb(0 0 0 / 50%)
-}
-
-.josefin-blue-header {
-  font-family: 'Josefin', sans-serif;
-  font-weight: 500;
-  color: #6ac5d4;
-}
-
-.radius-img {
-  width: 150px;
-  border-radius: 8px;
-  box-shadow:
-    4px 4px 0px 2px rgb(0 0 0 / 50%)
-}
-
-.light-button {
-  display: inline-block;
-  margin: 8px;
-  margin-bottom: 16px;
-  padding: 8px 24px;
-  border-radius: 20px;
-  background-color: #ececff;
-  color: #17abc1;
-  text-decoration: none;
-  font-weight: 900;
-  box-shadow:
-    4px 4px 0px 2px rgb(0 0 0 / 50%)
-}
-
-.light-button:hover {
-  background-color: #6ac6d4;
-  color: #ffffff;
-  box-shadow:
-    8px 8px 0px 2px rgb(0 0 0 / 50%)
-}
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
-
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 20px;
 }
